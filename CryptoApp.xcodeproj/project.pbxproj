@@ -25,6 +25,8 @@
 		1F69C59C2EC5D4A4005BAAA8 /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F69C5872EC5D4A4005BAAA8 /* NetworkingManager.swift */; };
 		1F69C59D2EC5D4A4005BAAA8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F69C58A2EC5D4A4005BAAA8 /* ContentView.swift */; };
 		1F69C59E2EC5D4A4005BAAA8 /* CryptoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F69C58B2EC5D4A4005BAAA8 /* CryptoAppApp.swift */; };
+		1F69C5A02EC5DF65005BAAA8 /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F69C59F2EC5DF65005BAAA8 /* SearchBarView.swift */; };
+		1F69C5A22EC5E4E0005BAAA8 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F69C5A12EC5E4E0005BAAA8 /* UIApplication.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,8 @@
 		1F69C5892EC5D4A4005BAAA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F69C58A2EC5D4A4005BAAA8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1F69C58B2EC5D4A4005BAAA8 /* CryptoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoAppApp.swift; sourceTree = "<group>"; };
+		1F69C59F2EC5DF65005BAAA8 /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		1F69C5A12EC5E4E0005BAAA8 /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
 		1F92ED3C2EC4701500A0D11B /* CryptoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -82,6 +86,7 @@
 			children = (
 				1F69C5712EC5D4A4005BAAA8 /* CircleButton */,
 				1F69C5732EC5D4A4005BAAA8 /* CoinImage */,
+				1F69C59F2EC5DF65005BAAA8 /* SearchBarView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -128,6 +133,7 @@
 				1F69C57D2EC5D4A4005BAAA8 /* Color.swift */,
 				1F69C57E2EC5D4A4005BAAA8 /* Double.swift */,
 				1F69C57F2EC5D4A4005BAAA8 /* PreviewProvider.swift */,
+				1F69C5A12EC5E4E0005BAAA8 /* UIApplication.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -269,8 +275,10 @@
 				1F69C5932EC5D4A4005BAAA8 /* CoinRowView.swift in Sources */,
 				1F69C5942EC5D4A4005BAAA8 /* HomeView.swift in Sources */,
 				1F69C5952EC5D4A4005BAAA8 /* Color.swift in Sources */,
+				1F69C5A22EC5E4E0005BAAA8 /* UIApplication.swift in Sources */,
 				1F69C5962EC5D4A4005BAAA8 /* Double.swift in Sources */,
 				1F69C5972EC5D4A4005BAAA8 /* PreviewProvider.swift in Sources */,
+				1F69C5A02EC5DF65005BAAA8 /* SearchBarView.swift in Sources */,
 				1F69C5982EC5D4A4005BAAA8 /* CoinModel.swift in Sources */,
 				1F69C5992EC5D4A4005BAAA8 /* CoinDataService.swift in Sources */,
 				1F69C59A2EC5D4A4005BAAA8 /* CoinImageService.swift in Sources */,
